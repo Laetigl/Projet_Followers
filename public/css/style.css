@@ -1,0 +1,30 @@
+body {
+    background-color:#8c43ae;
+    width: 500px;
+    height: 500px;
+
+}
+
+.iconfollowers{
+    color: white;
+    display: flex;
+    padding-top: 200px;
+    gap:100px;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 100px ;
+    
+}
+
+.iconIndividual{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
