@@ -1,7 +1,30 @@
 body {
     background-color:#8c43ae;
-    width: 500px;
+    width: 100%;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/img/Roaster.jpeg);
+    background-image: cover;
+    background-position:top;
+    background-repeat: none;
+    background-size: cover;
+    opacity: 1;
+
+}
+
+.titleCounter{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    z-index: 1;
 
 }
 
@@ -14,6 +37,7 @@ body {
     align-items: center;
     width: 1400px;
     height: 100px ;
+    z-index: 1;
     
 }
 
@@ -22,9 +46,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    z-index: 1;
 }
 
 img{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 4px solid black;
+    z-index: 1;
 }
