@@ -8,7 +8,7 @@ body {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../src/img/Roaster.jpeg);
     /* background-image: cover; */
     background-position:top;
-    background-repeat: none; 
+    background-repeat: none !important; 
     background-size:cover;
     opacity: 1;
     padding-top: 10%;
@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 30%;
     display: flex;
-    gap:20px;
+    gap:15px;
     flex-direction: column;
     text-align: center;
     justify-content: center;
@@ -32,7 +32,7 @@ body {
 
 h1{
     display: flex;
-    font-size: 60px;
+    font-size: 65px;
     margin: 0;
 }
 
@@ -48,8 +48,7 @@ h1{
     color: white;
     height: 50% !important;
     display: flex;
-    /* gap:20px; */
-    gap:50px;
+    gap:70px;
     justify-content: center;
     align-items: center;
     height: 100px ;
@@ -62,15 +61,18 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:15px;
+    gap:20px;
     z-index: 1;
     background-color: rgb(143, 133, 133);
     opacity: 0.8;
     box-shadow: 1px 1px 5px 5px;
     border-radius: 20px;
     width:12%;
+    transition: 0.3s ease
 }
-
+.iconIndividual:hover{
+    transform: scale(1.05)
+}
 
 .iconIndividual p{
     font-family: 'Playfair Display', serif;
@@ -95,3 +97,4 @@ img{
     padding-top: 10px;
     z-index: 1;
 }
+
