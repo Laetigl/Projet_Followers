@@ -1,32 +1,32 @@
-let counterTwitter = setInterval(countdownTwitter)
-let counterYoutube = setInterval(countdownYoutube)
+let counterOne = setInterval(countOne)
+let counterTwo = setInterval(countTwo)
 let counterThree = setInterval(countThree)
 let counterFour = setInterval(countFour)
 let counterFive = setInterval(countFive)
 
-let indexTwitter = 0
-let indexYoutube = 0
+let indexOne = 0
+let indexTwo = 0
 let indexThree = 0
 let indexFour = 0
 let indexFive = 0
 
 //Coffee 1
-function countdownTwitter() {
-    let countTwitter = document.getElementById("numberTwitter")
-    countTwitter.innerHTML = (indexTwitter+=5) 
+function countOne() {
+    let countOne = document.getElementById("numberOne")
+    countOne.innerHTML = (indexOne+=5) 
 
-    if (indexTwitter == 1200) {
-        clearInterval(counterTwitter) //break of the function
+    if (indexOne == 1200) {
+        clearInterval(counterOne) //break of the function
     }
 }
 
 //Coffee 2
-function countdownYoutube() {
-    let countYoutube = document.getElementById("numberYoutube")
-    countYoutube.innerHTML = (indexYoutube +=10)
+function countTwo() {
+    let countTwo = document.getElementById("numberTwo")
+    countTwo.innerHTML = (indexTwo +=10)
 
-    if (indexYoutube == 5000) {
-        clearInterval(counterYoutube)
+    if (indexTwo == 5000) {
+        clearInterval(counterTwo)
     }
 }
 
@@ -53,9 +53,9 @@ function countFour() {
 //Coffee 5
 function countFive() {
     let countFive = document.getElementById("numberFive")
-    countFive.innerHTML = (indexFive+=1)
+    countFive.innerHTML = (indexFive+=5)
 
-    if (indexFive == 500) {
+    if (indexFive == 4500) {
         clearInterval(counterFive)
     }
 }
